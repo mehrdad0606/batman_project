@@ -1,0 +1,32 @@
+<resources>
+
+
+    <style name="LightDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/viewBlueColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="colorControlActivated">@color/viewBlueColor</item>
+        <item name="android:windowBackground">@drawable/bg_custom_dialog</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorHint">@color/hintTextColor</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="BorderlessButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+
+</resources>

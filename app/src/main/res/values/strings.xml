@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Batman Project</string>
+
+    <string name="retry">retry</string>
+    <string name="reconnect">reconnect</string>
+    <string name="exit">exit</string>
+    <string name="user_is_offline">user_is_offline</string>
+    <string name="socket_timeout">socket_timeout</string>
+    <string name="server_problem">server_problem</string>
+    <string name="client_problem">client_problem</string>
+    <string name="unknown_problem">unknown_problem</string>
+    <string name="User_limited">user limited</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="is_internet_on">is internet on?</string>
+    <string name="error_connection">connection error</string>
+    <string name="error">error</string>
+    <string name="problem">problem</string>
+    <string name="in_progress">in progress</string>
+    <string name="accepted">accepted</string>
+    <string name="rejected">rejected</string>
+    <string name="score">score</string>
+</resources>

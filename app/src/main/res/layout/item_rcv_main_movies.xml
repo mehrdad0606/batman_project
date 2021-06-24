@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_main_movies_cl_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_9sdp"
+    android:layout_marginStart="@dimen/_4sdp"
+    android:layout_marginEnd="@dimen/_4sdp"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/bg_rect_solid_gray_white_round_14"
+    android:elevation="@dimen/_4sdp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_main_movies_img_movie"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginVertical="@dimen/_18sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_main_movies_txt_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:maxLines="1"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_15ssp"
+        app:autoSizeMaxTextSize="@dimen/_15ssp"
+        app:autoSizeMinTextSize="@dimen/_8ssp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@id/item_main_movies_txt_subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item_main_movies_img_movie"
+        app:layout_constraintTop_toTopOf="@id/item_main_movies_img_movie"
+        tools:text="Beginner" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_main_movies_txt_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:maxLines="1"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_10ssp"
+        app:autoSizeMaxTextSize="@dimen/_10ssp"
+        app:autoSizeMinTextSize="@dimen/_4ssp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@id/item_main_movies_img_movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item_main_movies_img_movie"
+        app:layout_constraintTop_toBottomOf="@id/item_main_movies_txt_title"
+        tools:text="0o000000%" />
+</androidx.constraintlayout.widget.ConstraintLayout>

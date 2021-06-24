@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hintTextColor">#993c3c43</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimaryDark">@color/white</color>
+    <color name="viewBlueColor">#4954d7</color>
+    <color name="accentColor">@color/viewBlueColor</color>
+    <color name="primaryTextColor">#616161</color>
+    <color name="dialogBackgroundColor">#ffffff</color>
+    <color name="deepPurple800">#4527A0</color>
+    <color name="dialogButtonContinueColor">#efeff4</color>
+    <color name="textColor">#000000</color>
+    <color name="backgroundColor">#ffffff</color>
+    <color name="viewGrayColor">#efeff4</color>
+    <color name="timerIcWhiteGrayColor">#ffffff</color>
+    <color name="btnGreenBackground">#32d74b</color>
+
+
+
+
+
+
+</resources>
